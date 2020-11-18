@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GridActivity">
+
+    <RelativeLayout
+        android:layout_width="230dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="160dp"
+        android:background="#fff">
+        <ImageView
+            android:id="@+id/idavata"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/idtensp"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="185dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:text="Điện thoại Galaxy"/>
+        <TextView
+            android:id="@+id/idgiasp"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="225dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:text="12.900.000 VND"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

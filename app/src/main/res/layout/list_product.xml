@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridviewdata">
+
+        <ImageView
+            android:id="@+id/imagehinh"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="10dp"
+            />
+        <TextView
+            android:paddingTop="10dp"
+            android:id="@+id/tensp"
+            android:textStyle="bold"
+            android:textColor="#252424"
+            android:textSize="20dp"
+            android:layout_toRightOf="@+id/imagehinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên"/>
+
+        <TextView
+            android:id="@+id/giasp"
+            android:layout_below="@id/tensp"
+            android:textSize="16dp"
+            android:layout_toRightOf="@+id/imagehinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mô tả"
+
+            android:textColor="#404340"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
